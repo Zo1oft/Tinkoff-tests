@@ -1,8 +1,6 @@
 package zoloft.tests.tests;
 
 import zoloft.tests.helpers.DriverUtils;
-import zoloft.tests.pages.InvestPage;
-import zoloft.tests.pages.MainPage;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
