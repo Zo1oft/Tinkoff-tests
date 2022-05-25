@@ -13,8 +13,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 public class TinkoffTests extends TestBase {
-    MainPage mainPage = new MainPage();
-    InvestPage investPage = new InvestPage();
 
     @Test
     @Description("Проверка работы кнопки оформления карты")
