@@ -45,7 +45,7 @@ public class AllureAttachments {
                     videoInputStream = videoUrl.openStream();
                     break;
                 } catch (FileNotFoundException e) {
-                    sleep(5000);
+                    sleep(10000);
                 } catch (IOException e) {
                     LOGGER.warn("[ALLURE VIDEO ATTACHMENT ERROR] Cant attach allure video, {}", videoUrl);
                     e.printStackTrace();
