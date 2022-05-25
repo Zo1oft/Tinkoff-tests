@@ -8,6 +8,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class InvestPage {
+    
     //locator
     SelenideElement
         createInvestAccount = $$("button[type=button]").findBy(Condition.text("Открыть счет")),
