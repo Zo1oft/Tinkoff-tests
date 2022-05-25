@@ -18,20 +18,18 @@ public class MainPage {
 public MainPage openPage() {
     open("https://www.tinkoff.ru/");
     return this;
-}
+    }
 
 public void debitCardFormTransfer() {
     debitCardButton.click();
-
-}
+    }   
 
 public void debitCardFormCheck() {
     debitCardForm.shouldHave(Condition.text("Заполните заявку за 5 минут"));
-
-}
+    }
 
 public void investPageTransfer() {
     investPage.click();
-
-}
+  
+    }
 }
