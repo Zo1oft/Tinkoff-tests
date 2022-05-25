@@ -17,7 +17,7 @@ public class TinkoffTests extends TestBase {
     @Test
     @Description("Проверка работы кнопки оформления карты")
     @DisplayName("Оформить карту")
-    void debitCaardTest() {
+    void debitCardTest() {
         step("Открываем сайт Tinkoff", () -> {
            mainPage.openPage();
         });
