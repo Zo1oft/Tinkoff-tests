@@ -15,6 +15,9 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 @ExtendWith({AllureJunit5.class})
 public class TestBase {
+    MainPage mainPage = new MainPage();
+    InvestPage investPage = new InvestPage();
+    
     @BeforeAll
     static void setUp() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
